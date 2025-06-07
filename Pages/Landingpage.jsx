@@ -6,7 +6,7 @@ import Login from './Login';
 import Register from './Register';
 import ImgGen from '../src/Components/ImgGen';
 import Collection from '../src/Components/Collection';
-import BeforeLogin from '../src/Components/Beforelogin';
+import BeforeLogin from '../src/Components/Authless';
 
 function Landingpage() {
   const [showLogin, setShowLogin] = useState(false);
