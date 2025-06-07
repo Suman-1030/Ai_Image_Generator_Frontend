@@ -635,12 +635,18 @@ body {
 
 .navbar{
   width: 100%;
- 
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   
 }
 
 .nav-auth .nav-btn{
-  width: 40px;
+  font-size: small;
+  background-color: transparent;
+  margin: 0px;
+  
 }
 
 .banner{
@@ -670,8 +676,9 @@ body {
 
 }
 
-
-
+.login{
+  max-width: 95vw;
+}
 
 
 
