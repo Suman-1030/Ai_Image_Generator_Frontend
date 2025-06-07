@@ -666,7 +666,9 @@ body {
     gap: 10px;
     justify-content: center;
   }
-
+ .login{
+  width: 95vw;
+ }
 
 
 
