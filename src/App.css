@@ -633,14 +633,24 @@ body {
 
 @media (max-width: 576px) {
 
-.navbar{
-  width: 100%;
-  border: 2px solid red;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  
-}
+  .navbar {
+    padding: 8px 10px; /* tighter padding for mobile */
+  }
+   
+
+ 
+  .logo h1 {
+    font-size: 20px;
+    
+  }
+
+  .nav-btn {
+    font-size: 14px;
+  }
+
+  .nav-auth {
+    gap: 8px;
+  }
 
 .nav-auth .nav-btn{
   font-size: small;

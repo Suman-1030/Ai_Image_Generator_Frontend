@@ -10,7 +10,7 @@ function BeforeLogin() {
         <p className="slide-up">
           Enter a prompt and let our AI turn your imagination into beautiful images in seconds.
         </p>
-        <img src="/ai-banner.png" alt="AI Example" className="hero-img zoom-in" />
+        
       </div>
 
       <div className="features">
