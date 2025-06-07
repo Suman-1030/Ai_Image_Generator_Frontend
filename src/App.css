@@ -7,6 +7,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
 
 
@@ -30,9 +31,10 @@ body {
 
 .logo h1 {
   margin: 50px;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: #00bcd4;
+
 }
 
 .nav-auth {
@@ -633,74 +635,37 @@ body {
 
 @media (max-width: 576px) {
 
-  .navbar {
-    padding: 8px 10px; /* tighter padding for mobile */
-  }
+
+.nav-btn.logout{
+    background-color: transparent;
    
-
- 
-  .logo h1 {
-    font-size: 20px;
-    
+  }
+  .img-box img {
+    max-width: 150px; /* Smaller size for small screens */
   }
 
-  .nav-btn {
-    font-size: 14px;
+  .img-box {
+    text-align: center;
+    width: 70px;
+  }
+  .img-box img{
+    width: 50px;
+    height: 60px;
+  }
+  .img-box p{
+    font-size: 10px;
+  }
+  .download-btn {
+    font-size: 10px;
+    padding: 3px 6px;
   }
 
-  .nav-auth {
-    gap: 8px;
+  .img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
   }
-
-.nav-auth .nav-btn{
-  font-size: small;
-  background-color: transparent;
-  margin: 0px;
-  
-}
-
-.banner{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-.collection-Section{
-  width: 100%;
-}
-.imgcoll{
- 
-  width: 100%;
-  margin: auto;
-}
-.img{
-  width: 100%;
-  margin-right: 40px;
-  gap: 10px;
-  padding: 30px;
- 
-}
-.img-box{
-  width: 100px;
-  height: 240px;
-
-}
-
-.login{
-  max-width: 95vw;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -752,4 +717,20 @@ body {
 }
  */
 
+}
+
+@media (max-width: 380px) {
+  .nav-auth{
+    
+    padding-right: 20px;
+    
+  }
+  .nav-auth .user-info{
+    margin-left: 10px;
+  }
+  .nav-btn.logout {
+   font-size: 10px;
+  }
+
+  
 }
