@@ -39,7 +39,7 @@ function Register({loginHandler}) {
   };
 
   return (
-    <div className="register-container">
+    <div className="login">
     <form onSubmit={Submithandler} className="register-form">
       <h2>📝 Create Your Account</h2>
   
@@ -73,7 +73,7 @@ function Register({loginHandler}) {
         className="register-input"
       />
   
-      <button type="submit" className="register-button">✅ Register</button>
+      <button type="submit" className="register-button">Register</button>
   
       <p className="register-hint">
         Already have an account? <span onClick={loginHandler}>Login here</span>
